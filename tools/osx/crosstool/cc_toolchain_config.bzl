@@ -4393,6 +4393,9 @@ def _impl(ctx):
                 ],
                 env_entries = [
                     env_entry(
+                        key = "DEVELOPER_DIR"
+                        key = "/Applications/Xcode.app/Contents/Developer"
+                    env_entry(
                         key = "XCODE_VERSION_OVERRIDE",
                         value = "%{xcode_version_override_value}",
                     ),
