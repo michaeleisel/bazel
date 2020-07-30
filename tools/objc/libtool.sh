@@ -106,7 +106,7 @@ while [[ $# -gt 0 ]]; do
      ;;
    # Remaining args are input objects
    *)
-     ARGS+=("$(echo "$(hash_objfile "${ARG}")")")
+     ARGS+=("${ARG}") # ("$(echo "$(hash_objfile "${ARG}")")")
      ;;
    esac
 done
