@@ -17,7 +17,7 @@
 set -e
 set -x
 
-RELEASE_NAME=${RELEASE_NAME:-unknown}
+RELEASE_NAME=${RELEASE_NAME:-3.5.0}
 
 # Get Bazelisk
 mkdir -p /tmp/tool
