@@ -313,6 +313,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -345,6 +349,10 @@ def _impl(ctx):
                 "compiler_output_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -381,6 +389,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -412,6 +424,10 @@ def _impl(ctx):
                 "unfiltered_compile_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -446,6 +462,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -477,6 +497,10 @@ def _impl(ctx):
                 "unfiltered_compile_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -510,6 +534,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -541,6 +569,10 @@ def _impl(ctx):
                 "unfiltered_compile_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -575,6 +607,10 @@ def _impl(ctx):
                 "apply_simulator_compiler_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -611,6 +647,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -642,6 +682,10 @@ def _impl(ctx):
                 "unfiltered_compile_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -708,6 +752,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang_pp",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -769,6 +817,10 @@ def _impl(ctx):
                 "apply_implicit_frameworks",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang_pp",
                     execution_requirements = xcode_execution_requirements,
@@ -833,6 +885,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang_pp",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -894,6 +950,10 @@ def _impl(ctx):
                 "apply_implicit_frameworks",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang_pp",
                     execution_requirements = xcode_execution_requirements,
@@ -957,6 +1017,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang_pp",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -1018,6 +1082,10 @@ def _impl(ctx):
                 "apply_implicit_frameworks",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang_pp",
                     execution_requirements = xcode_execution_requirements,
@@ -1081,6 +1149,10 @@ def _impl(ctx):
                 "apply_implicit_frameworks",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang_pp",
                     execution_requirements = xcode_execution_requirements,
@@ -1146,6 +1218,10 @@ def _impl(ctx):
                 "apply_implicit_frameworks",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang_pp",
                     execution_requirements = xcode_execution_requirements,
@@ -1257,6 +1333,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -1290,6 +1370,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -1317,6 +1401,10 @@ def _impl(ctx):
                 "unfiltered_cxx_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -1350,6 +1438,10 @@ def _impl(ctx):
                 "compiler_output_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -1394,6 +1486,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -1434,6 +1530,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -1470,6 +1570,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -1504,6 +1608,10 @@ def _impl(ctx):
                 "unfiltered_compile_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -1540,6 +1648,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -1574,6 +1686,10 @@ def _impl(ctx):
                 "unfiltered_compile_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -1611,6 +1727,10 @@ def _impl(ctx):
                 "apply_simulator_compiler_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -1650,6 +1770,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -1685,6 +1809,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -1710,6 +1838,10 @@ def _impl(ctx):
                 "unfiltered_cxx_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -1741,6 +1873,10 @@ def _impl(ctx):
                 "compiler_output_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -1770,6 +1906,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -1802,6 +1942,10 @@ def _impl(ctx):
                 "compiler_output_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -2128,6 +2272,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -2193,6 +2341,10 @@ def _impl(ctx):
                 "apply_implicit_frameworks",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -2261,6 +2413,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -2326,6 +2482,10 @@ def _impl(ctx):
                 "apply_implicit_frameworks",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -2393,6 +2553,10 @@ def _impl(ctx):
             ],
             tools = [
                 tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
                 ),
@@ -2458,6 +2622,10 @@ def _impl(ctx):
                 "apply_implicit_frameworks",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -2525,6 +2693,10 @@ def _impl(ctx):
                 "apply_implicit_frameworks",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -2594,6 +2766,10 @@ def _impl(ctx):
                 "apply_implicit_frameworks",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -2682,6 +2858,10 @@ def _impl(ctx):
             "compiler_output_flags",
         ],
         tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
             tool(
                 path = "wrapped_clang",
                 execution_requirements = xcode_execution_requirements,
@@ -2708,6 +2888,10 @@ def _impl(ctx):
                 "unfiltered_cxx_flags",
             ],
             tools = [
+                tool(
+                    path = "libtool_check_unique",
+                    execution_requirements = xcode_execution_requirements,
+                ),
                 tool(
                     path = "wrapped_clang",
                     execution_requirements = xcode_execution_requirements,
@@ -2743,6 +2927,10 @@ def _impl(ctx):
             tools = [
                 tool(
                     path = "wrapped_clang",
+                    execution_requirements = xcode_execution_requirements,
+                ),
+                tool(
+                    path = "libtool_check_unique",
                     execution_requirements = xcode_execution_requirements,
                 ),
             ],

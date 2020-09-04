@@ -53,6 +53,7 @@ cc_toolchain_suite(
             ":make_hashed_objlist.py",
             ":wrapped_clang",
             ":wrapped_clang_pp",
+            ":libtool_check_unique",
             ":xcrunwrapper.sh",
         ],
     )
